@@ -10,12 +10,18 @@ include 'data.php';
     <link rel="stylesheet" href="public/css/app.css">
   </head>
   <body>
+    <div class="main">
 
-    <?php
+      <div class="schedagiocatore">
 
-    print_r(stampagiocatore());
+        <?php
+          print_r(stampagiocatore());
+         ?>
+         
+      </div>
 
-     ?>
+    </div>
+
 
   </body>
 </html>
