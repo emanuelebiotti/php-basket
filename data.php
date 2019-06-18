@@ -2,7 +2,7 @@
 
 function creaCodice(){
 
-  $playercode = rand(1,999);
+  $playercode = rand(100,999);
   return $playercode;
 }
 
